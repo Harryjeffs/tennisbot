@@ -1,0 +1,32 @@
+{
+  "name": "tennis-bot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Harryjeffs/tennisbot.git"
+  },
+  "author": "Harry Jeffs",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Harryjeffs/tennisbot/issues"
+  },
+  "homepage": "https://github.com/Harryjeffs/tennisbot#readme",
+  "dependencies": {
+    "@slack/events-api": "^2.3.1",
+    "@slack/web-api": "^5.7.0",
+    "dotenv": "^8.2.0",
+    "firebase": "^3.7.2",
+    "firebase-admin": "^8.9.2",
+    "firebase-functions": "^3.3.0",
+    "query-string": "^6.11.0",
+    "querystring": "^0.2.0"
+  },
+  "engines": {
+    "node": "8"
+  }
+}
